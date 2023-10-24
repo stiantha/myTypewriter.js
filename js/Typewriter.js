@@ -5,7 +5,7 @@ var aText = new Array(
     "i drink lot of tea", // add your text
     "and build beautiful websites" // add your text
     );
-    var iSpeed = 100; 
+    var iSpeed = 10000; 
     var iIndex = 0; 
     var iArrLength = aText[0].length; 
     var iScrollAt = 20; 
@@ -29,9 +29,7 @@ var aText = new Array(
       iIndex++;
       if ( iIndex != aText.length ) {
        iArrLength = aText[iIndex].length;
-       setTimeout("typewriter()", 100);
       }
      } else {
-      setTimeout("typewriter()", iSpeed);
      }
     }

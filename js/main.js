@@ -65,7 +65,7 @@ $.fn.typewriter = function() {
             ">" != b.substring(a, a + 1);) a++
       }
       c.html(b.substring(d, a++) + (a & 1 ? "" : ""));
-      a >= b.length || setTimeout(e, 30 + 50 *
+      a >= b.length || setTimeout(e, 10 + 10 *
         Math.random())
     };
     e()
